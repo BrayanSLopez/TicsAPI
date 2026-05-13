@@ -1,4 +1,4 @@
-const service = require('../services/tics_services');
+const service = require('../services/tics_service');
 
 const crearLectura = async (req, res) => {
 

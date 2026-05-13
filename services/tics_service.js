@@ -23,10 +23,11 @@ const crearLectura = async (data) => {
     );
 
     return {
-        id: result.insertId,
-        nombre_usuario,
-        temperatura,
-        humedad
+        id: result.id,
+        nombre_usuario: result.nombre_usuario,
+        temperatura: result.temperatura,
+        humedad: result.humedad,
+        fecha: result.fecha
     };
 };
 
